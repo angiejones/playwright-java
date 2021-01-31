@@ -31,6 +31,6 @@ public class SearchTests extends BaseTests {
         );
 
          assertEquals(searchPage.getNumberOfVisibleBooks(), expectedBooks.size(), "Number of visible books");
-         assertEquals(expectedBooks, searchPage.getVisibleBooks(), "Titles of visible books");
+         assertEquals(searchPage.getVisibleBooks(), expectedBooks,"Titles of visible books");
      }
 }
